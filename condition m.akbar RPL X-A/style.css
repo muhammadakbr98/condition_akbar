@@ -1,0 +1,45 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(112, 216, 223);
+}
+
+.container {
+    background-color: rgb(187, 175, 175);
+    padding: 20px;
+    border-radius: 8px;
+    box-align: 0 0 10px;
+    text-align: center;
+    width: 300px;
+}
+h1{
+    color: azure;
+}
+form>div {
+    margin: 10px 0;
+}
+select{
+    width: 100%;
+    padding: 8px;
+}
+button{
+    background-color: rgb(238, 22, 22);
+    color: rgb(231, 242, 237);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+button:hover{
+    background-color: rgb(44, 90, 197);
+}
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(32, 51, 52);
+}
